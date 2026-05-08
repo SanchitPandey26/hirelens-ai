@@ -1,0 +1,76 @@
+About the Company:
+At InnovateX, we’re on a mission to transform the way businesses leverage technology. With over 500 employees worldwide, we foster a culture of innovation, collaboration, and growth. We believe in empowering our teams to solve complex problems and make a tangible impact.
+
+About the Job:
+We are seeking a passionate and talented Software Engineer to join our fast-growing engineering team. You’ll work on a variety of challenging projects, collaborating with cross-functional teams to build scalable, high-quality software solutions. This is a full-time, hybrid position based in Bangalore, India.
+
+What You’ll Do:
+
+Collaborate with product managers, designers, and other engineers to deliver new product features and enhancements.
+
+Architect, design, and implement software systems with a focus on scalability and maintainability.
+
+Write clean, efficient, and well-documented code in Python, Java, or C++.
+
+Participate in code reviews, contribute to team best practices, and mentor junior engineers.
+
+Troubleshoot, debug, and upgrade existing software.
+
+Work with DevOps to automate deployments and monitor applications in production.
+
+Stay up-to-date with emerging technologies and industry trends.
+
+Required Skills and Qualifications:
+
+Bachelor’s or Master’s degree in Computer Science, Software Engineering, or a related field.
+
+Minimum 2 years of professional experience in software development.
+
+Proficiency in at least one modern programming language (Python, Java, C++, JavaScript).
+
+Strong understanding of data structures, algorithms, and object-oriented programming.
+
+Experience with web frameworks such as Django, Spring, or React.
+
+Familiarity with relational databases and SQL.
+
+Version control experience (Git).
+
+Experience with CI/CD pipelines and test-driven development.
+
+Excellent analytical and communication skills.
+
+Preferred Qualifications:
+
+Experience with cloud platforms (AWS, Azure, or GCP).
+
+Knowledge of containerization (Docker, Kubernetes).
+
+Familiarity with microservices architecture and RESTful APIs.
+
+Exposure to distributed systems and networking protocols.
+
+Benefits & Perks:
+
+Competitive salary and performance bonuses
+
+Flexible working hours and remote work options
+
+Health insurance for you and your family
+
+Learning and development budget
+
+Free snacks, wellness programs, and team outings
+
+Employee stock option plan (ESOP)
+
+Why Join Us:
+
+Work in a dynamic, supportive environment with opportunities for rapid career growth.
+
+Be part of a diverse team that values innovation and creativity.
+
+Make a real impact on products used by thousands of customers worldwide.
+
+How to Apply:
+Submit your resume and a cover letter outlining your relevant experience and why you’re excited to join InnovateX.
