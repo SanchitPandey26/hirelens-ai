@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Candidate Shortlist Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; color: #333; }
+        h1 { color: #2c3e50; }
+        .candidate { border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
+        .candidate h2 { margin-top: 0; color: #34495e; }
+        .score { font-size: 1.2em; font-weight: bold; color: #e74c3c; }
+        .hire { color: #27ae60; }
+        .maybe { color: #f39c12; }
+        .nohire { color: #c0392b; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+        th { background-color: #f8f9fa; }
+    </style>
+</head>
+<body>
+    <h1>Candidate Shortlist Report</h1>
+    <p>Generated on: {{ date }}</p>
+    
+    {% for candidate in candidates %}
+    <div class="candidate">
+        <h2>{{ candidate.candidate_id }}</h2>
+        <p><strong>Recommendation:</strong> <span class="{% if candidate.recommendation == 'Hire' %}hire{% elif candidate.recommendation == 'Maybe' %}maybe{% else %}nohire{% endif %}">{{ candidate.recommendation }}</span></p>
+        <p><strong>Weighted Total:</strong> <span class="score">{{ candidate.weighted_total }}/10</span></p>
+        <p><strong>Summary:</strong> {{ candidate.summary }}</p>
+        
+        <h3>Dimension Breakdown</h3>
+        <table>
+            <tr>
+                <th>Dimension</th>
+                <th>Score</th>
+                <th>Justification</th>
+            </tr>
+            <tr>
+                <td>Skills Match (30%)</td>
+                <td>{{ candidate.dimensions.skills_match.score }}/10</td>
+                <td>{{ candidate.dimensions.skills_match.justification }}</td>
+            </tr>
+            <tr>
+                <td>Experience (25%)</td>
+                <td>{{ candidate.dimensions.experience_relevance.score }}/10</td>
+                <td>{{ candidate.dimensions.experience_relevance.justification }}</td>
+            </tr>
+            <tr>
+                <td>Education (15%)</td>
+                <td>{{ candidate.dimensions.education_certs.score }}/10</td>
+                <td>{{ candidate.dimensions.education_certs.justification }}</td>
+            </tr>
+            <tr>
+                <td>Projects (20%)</td>
+                <td>{{ candidate.dimensions.project_portfolio.score }}/10</td>
+                <td>{{ candidate.dimensions.project_portfolio.justification }}</td>
+            </tr>
+            <tr>
+                <td>Communication (10%)</td>
+                <td>{{ candidate.dimensions.communication_quality.score }}/10</td>
+                <td>{{ candidate.dimensions.communication_quality.justification }}</td>
+            </tr>
+        </table>
+    </div>
+    {% endfor %}
+</body>
+</html>

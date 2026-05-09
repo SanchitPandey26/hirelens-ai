@@ -1,9 +1,10 @@
 import os
 from google import genai
 from google.genai import types
-
+from security.pii_masker import mask_pii
 
 def call_gemini_api(resume_text: str, filename: str, api_key: str) -> dict:
+    resume_text = mask_pii(resume_text)
     client = genai.Client(api_key=api_key)
     model = "gemini-3.1-flash-lite-preview"
 

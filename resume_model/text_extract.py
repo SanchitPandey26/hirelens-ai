@@ -45,9 +45,13 @@ def extract_text_and_links_docx(docx_path: str) -> Tuple[str, List[Dict]]:
     return '\n'.join(full_text).strip(), links
 
 def extract_text_and_links(file_path: str) -> Tuple[str, List[Dict]]:
-    if file_path.lower().endswith('.pdf'):
+    lower_path = file_path.lower()
+    if lower_path.endswith('.pdf'):
         return extract_text_and_links_pdf(file_path)
-    elif file_path.lower().endswith('.docx'):
+    elif lower_path.endswith('.docx'):
         return extract_text_and_links_docx(file_path)
+    elif lower_path.endswith('.txt') or lower_path.endswith('.json'):
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return f.read().strip(), []
     else:
         raise ValueError('Unsupported file format')

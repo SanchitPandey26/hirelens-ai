@@ -3,6 +3,7 @@ import time
 from functools import wraps
 from google import genai
 from google.genai import types
+from security.pii_masker import sanitize_input
 
 def retry_on_rate_limit(max_retries=3, base_delay=2):
     def decorator(func):
@@ -24,6 +25,7 @@ def retry_on_rate_limit(max_retries=3, base_delay=2):
 
 @retry_on_rate_limit(max_retries=4, base_delay=2)
 def call_jd_gemini_api(jd_text: str, api_key: str) -> str:
+    jd_text = sanitize_input(jd_text)
     client = genai.Client(api_key=api_key)
     model = "gemini-3.1-flash-lite-preview"
 

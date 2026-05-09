@@ -13,3 +13,9 @@ venv/
 
 # OS
 .DS_Store
+
+.agent/
+graphify-out/
+audit_logs/
+index_store/
+resume_data/

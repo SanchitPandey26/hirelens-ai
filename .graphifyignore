@@ -1,0 +1,9 @@
+venv/
+.venv/
+resume_data/
+index_store/
+__pycache__/
+graphify-out/
+.agent/
+.cache/
+LICENSE.txt
