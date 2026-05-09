@@ -16,6 +16,3 @@ venv/
 
 .agent/
 graphify-out/
-audit_logs/
-index_store/
-resume_data/

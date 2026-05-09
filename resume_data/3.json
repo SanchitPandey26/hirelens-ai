@@ -1,0 +1,22 @@
+{
+  "candidate_id": "rohan_gupta_03",
+  "name": "Rohan Gupta",
+  "headline": "Computer Engineering Student | Automation Testing Specialist",
+  "education": [
+    {
+      "institution": "BITS Pilani",
+      "degree": "B.E. in Computer Science",
+      "start_date": "2022",
+      "end_date": "2026"
+    }
+  ],
+  "skills": ["Java", "JavaScript", "Selenium", "JUnit", "TestNG", "Git", "Linux", "Software Testing Principles"],
+  "experience": [],
+  "projects": [
+    {
+      "name": "E-commerce Test Suite",
+      "description": "Designed an automated testing framework for a mock e-commerce site using Selenium and TestNG, achieving 90% code coverage."
+    }
+  ],
+  "about": "Aspiring QA engineer with strong foundations in test automation and Java development."
+}

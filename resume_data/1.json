@@ -1,0 +1,28 @@
+{
+  "candidate_id": "aarav_sharma_01",
+  "name": "Aarav Sharma",
+  "headline": "CS Student at IIT Delhi | Aspiring DevOps & Cloud Engineer",
+  "education": [
+    {
+      "institution": "Indian Institute of Technology (IIT), Delhi",
+      "degree": "B.Tech in Computer Science",
+      "start_date": "2022",
+      "end_date": "2026 (Expected)"
+    }
+  ],
+  "skills": ["Python", "Java", "Linux", "Git", "Docker", "Kubernetes", "AWS", "Terraform", "Shell Scripting"],
+  "experience": [
+    {
+      "title": "Cloud Computing Intern",
+      "company": "TechLabs",
+      "description": "Assisted in setting up CI/CD pipelines using Jenkins and deploying containerized apps to AWS."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Automated Deployment Pipeline",
+      "description": "Built a custom pipeline using GitHub Actions and Docker to automate the release of a Python web app."
+    }
+  ],
+  "about": "Proactive CS student with a passion for infrastructure as code and cloud automation."
+}

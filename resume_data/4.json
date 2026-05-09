@@ -1,0 +1,22 @@
+{
+  "candidate_id": "ananya_iyer_04",
+  "name": "Ananya Iyer",
+  "headline": "B.Tech Student in IT | Java Enthusiast",
+  "education": [
+    {
+      "institution": "VIT Vellore",
+      "degree": "B.Tech in Information Technology",
+      "start_date": "2022",
+      "end_date": "2026"
+    }
+  ],
+  "skills": ["Java", "C++", "SQL", "Git", "HTML/CSS", "Basic Linux"],
+  "experience": [],
+  "projects": [
+    {
+      "name": "Library Management System",
+      "description": "A Java-based application for managing book inventories using MySQL for the backend."
+    }
+  ],
+  "about": "Eager to learn and contribute to large-scale engineering projects."
+}

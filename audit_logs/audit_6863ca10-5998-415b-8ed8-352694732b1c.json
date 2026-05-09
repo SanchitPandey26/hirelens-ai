@@ -1,0 +1,26 @@
+{
+  "audit_log": [
+    {
+      "timestamp": "2026-05-09T20:20:24.849271",
+      "candidate_id": "48.pdf",
+      "action": "score_override",
+      "dimension": "skills_match",
+      "original_score": 6,
+      "original_justification": "The candidate has a good grasp of cloud concepts and programming languages but lacks depth in software testing and CI/CD.",
+      "new_score": 8,
+      "reason": "Fun",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T20:20:24.859839",
+      "candidate_id": "48.pdf",
+      "action": "score_override",
+      "dimension": "experience",
+      "original_score": 5,
+      "original_justification": "The work experience is primarily focused on student leadership and outreach rather than technical software development.",
+      "new_score": 5,
+      "reason": "Fun",
+      "overridden_by": "HR_user"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "candidate_id": "liam_wilson_05",
+  "name": "Liam Wilson",
+  "headline": "Computer Science Junior | Python & Web Dev",
+  "education": [
+    {
+      "institution": "University of Manchester",
+      "degree": "B.Sc. in Computer Science",
+      "start_date": "2023",
+      "end_date": "2026"
+    }
+  ],
+  "skills": ["Python", "JavaScript", "React", "Git", "Unix Shell"],
+  "experience": [
+    {
+      "title": "Summer Camp Mentor",
+      "company": "CodeKids",
+      "description": "Taught middle schoolers basic Python logic and web development."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Personal Portfolio Site",
+      "description": "React-based portfolio site deployed using Netlify."
+    }
+  ],
+  "about": "CS student with solid Python skills looking for internship opportunities in software development."
+}

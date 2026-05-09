@@ -1,0 +1,22 @@
+{
+  "candidate_id": "priyanshu_das_06",
+  "name": "Priyanshu Das",
+  "headline": "Information Technology Student | Aspiring DevOps",
+  "education": [
+    {
+      "institution": "SRM University",
+      "degree": "B.Tech in IT",
+      "start_date": "2022",
+      "end_date": "2026"
+    }
+  ],
+  "skills": ["C", "C++", "Python", "Linux Administration", "Git", "Computer Networks"],
+  "experience": [],
+  "projects": [
+    {
+      "name": "Linux Shell Implementation",
+      "description": "Built a basic shell in C that handles standard commands and pipe operations."
+    }
+  ],
+  "about": "Strong interest in system administration and Linux internals."
+}

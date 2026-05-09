@@ -1,0 +1,23 @@
+{
+  "candidate_id": "david_lee_10",
+  "name": "David Lee",
+  "headline": "Mechanical Engineering Student",
+  "education": [
+    {
+      "institution": "University of Michigan",
+      "degree": "B.S. in Mechanical Engineering",
+      "start_date": "2021",
+      "end_date": "2025"
+    }
+  ],
+  "skills": ["AutoCAD", "MATLAB", "SolidWorks", "Thermodynamics"],
+  "experience": [
+    {
+      "title": "Manufacturing Intern",
+      "company": "AutoCorp",
+      "description": "Optimized assembly line layouts for better efficiency."
+    }
+  ],
+  "projects": [],
+  "about": "Mechanical engineer exploring how software can improve manufacturing processes."
+}

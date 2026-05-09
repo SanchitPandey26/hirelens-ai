@@ -1,0 +1,23 @@
+{
+  "candidate_id": "jasmine_kaur_09",
+  "name": "Jasmine Kaur",
+  "headline": "High School Graduate | Coding Bootcamp Student",
+  "education": [
+    {
+      "institution": "City High School",
+      "degree": "Diploma",
+      "start_date": "2018",
+      "end_date": "2022"
+    }
+  ],
+  "skills": ["HTML", "CSS", "Basic JavaScript"],
+  "experience": [
+    {
+      "title": "Cashier",
+      "company": "Retail Mart",
+      "description": "Handled customer transactions and inventory updates."
+    }
+  ],
+  "projects": [],
+  "about": "Learning the basics of web design and excited to start my tech journey."
+}

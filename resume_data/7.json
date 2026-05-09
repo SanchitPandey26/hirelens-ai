@@ -1,0 +1,23 @@
+{
+  "candidate_id": "sara_miller_07",
+  "name": "Sara Miller",
+  "headline": "Senior Year Computer Science Student",
+  "education": [
+    {
+      "institution": "Texas A&M University",
+      "degree": "B.S. in Computer Science",
+      "start_date": "2021",
+      "end_date": "2025"
+    }
+  ],
+  "skills": ["Python", "Java", "Manual Testing", "Git", "Agile Methodologies"],
+  "experience": [
+    {
+      "title": "IT Support Intern",
+      "company": "Local University IT",
+      "description": "Troubleshot hardware and software issues for faculty and students."
+    }
+  ],
+  "projects": [],
+  "about": "Looking to pivot into software quality engineering with a focus on automation."
+}

@@ -1,0 +1,202 @@
+{
+  "audit_log": [
+    {
+      "timestamp": "2026-05-09T19:07:18.285277",
+      "candidate_id": "7.pdf",
+      "action": "score_override",
+      "dimension": "skills_match",
+      "original_score": 8,
+      "original_justification": "The candidate has a strong command of the required web stack and modern cloud-native tools.",
+      "new_score": 8,
+      "reason": "Testing",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:07:18.286862",
+      "candidate_id": "7.pdf",
+      "action": "score_override",
+      "dimension": "experience",
+      "original_score": 6,
+      "original_justification": "While lacking formal work experience, the candidate has significant project-based experience in building complex applications.",
+      "new_score": 2,
+      "reason": "Testing",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:08:05.592860",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "skills_match",
+      "original_score": 6,
+      "original_justification": "The candidate has a basic understanding of the required web stack and C++.",
+      "new_score": 6,
+      "reason": "Testing-2",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:08:05.597800",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "experience",
+      "original_score": 4,
+      "original_justification": "The candidate lacks professional work experience in software engineering.",
+      "new_score": 4,
+      "reason": "Testing-2",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:08:10.267363",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "skills_match",
+      "original_score": 6,
+      "original_justification": "The candidate has a basic understanding of the required web stack and C++.",
+      "new_score": 6,
+      "reason": "Testing-2",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:08:10.270200",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "experience",
+      "original_score": 4,
+      "original_justification": "The candidate lacks professional work experience in software engineering.",
+      "new_score": 4,
+      "reason": "Testing-2",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:08:11.046204",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "skills_match",
+      "original_score": 6,
+      "original_justification": "The candidate has a basic understanding of the required web stack and C++.",
+      "new_score": 6,
+      "reason": "Testing-2",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:08:11.051338",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "experience",
+      "original_score": 4,
+      "original_justification": "The candidate lacks professional work experience in software engineering.",
+      "new_score": 4,
+      "reason": "Testing-2",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:08:29.968537",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "skills_match",
+      "original_score": 6,
+      "original_justification": "The candidate has a basic understanding of the required web stack and C++.",
+      "new_score": 6,
+      "reason": "Testing-2",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:08:29.972116",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "experience",
+      "original_score": 4,
+      "original_justification": "The candidate lacks professional work experience in software engineering.",
+      "new_score": 5,
+      "reason": "Testing-2",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:08:30.755017",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "skills_match",
+      "original_score": 6,
+      "original_justification": "The candidate has a basic understanding of the required web stack and C++.",
+      "new_score": 6,
+      "reason": "Testing-2",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:08:30.758536",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "experience",
+      "original_score": 5,
+      "original_justification": "The candidate lacks professional work experience in software engineering.",
+      "new_score": 5,
+      "reason": "Testing-2",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:08:32.275164",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "skills_match",
+      "original_score": 6,
+      "original_justification": "The candidate has a basic understanding of the required web stack and C++.",
+      "new_score": 6,
+      "reason": "Testing-2",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:08:32.277923",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "experience",
+      "original_score": 5,
+      "original_justification": "The candidate lacks professional work experience in software engineering.",
+      "new_score": 5,
+      "reason": "Testing-2",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:08:37.041386",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "skills_match",
+      "original_score": 6,
+      "original_justification": "The candidate has a basic understanding of the required web stack and C++.",
+      "new_score": 3,
+      "reason": "Testing-2",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:08:37.044431",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "experience",
+      "original_score": 5,
+      "original_justification": "The candidate lacks professional work experience in software engineering.",
+      "new_score": 5,
+      "reason": "Testing-2",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:08:41.009837",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "skills_match",
+      "original_score": 3,
+      "original_justification": "The candidate has a basic understanding of the required web stack and C++.",
+      "new_score": 7,
+      "reason": "Testing-2",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-09T19:08:41.013650",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "experience",
+      "original_score": 5,
+      "original_justification": "The candidate lacks professional work experience in software engineering.",
+      "new_score": 5,
+      "reason": "Testing-2",
+      "overridden_by": "HR_user"
+    }
+  ]
+}

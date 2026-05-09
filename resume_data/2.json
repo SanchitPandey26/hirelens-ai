@@ -1,0 +1,28 @@
+{
+  "candidate_id": "emily_chen_02",
+  "name": "Emily Chen",
+  "headline": "Masters in Software Engineering Student | AI Enthusiast | Java Developer",
+  "education": [
+    {
+      "institution": "Stanford University",
+      "degree": "M.S. in Software Engineering",
+      "start_date": "2023",
+      "end_date": "2025 (Expected)"
+    }
+  ],
+  "skills": ["Java", "Python", "SQL", "Git", "REST APIs", "Machine Learning", "PyTorch", "Linux"],
+  "experience": [
+    {
+      "title": "Graduate Teaching Assistant",
+      "company": "Stanford CS Dept",
+      "description": "Helping students understand software design patterns and SDLC methodologies."
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Powered Bug Tracker",
+      "description": "Developed a tool using LLMs to automatically categorize and prioritize software bugs from GitHub issues."
+    }
+  ],
+  "about": "Detail-oriented student focused on integrating AI into the software development lifecycle."
+}
