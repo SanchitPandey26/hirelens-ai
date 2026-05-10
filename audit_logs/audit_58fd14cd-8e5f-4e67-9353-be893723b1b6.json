@@ -1,0 +1,26 @@
+{
+  "audit_log": [
+    {
+      "timestamp": "2026-05-10T14:48:04.976860",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "skills_match",
+      "original_score": 6,
+      "original_justification": "Covers core languages and web frameworks but lacks depth in cloud and DevOps tools.",
+      "new_score": 8,
+      "reason": "Demo",
+      "overridden_by": "HR_user"
+    },
+    {
+      "timestamp": "2026-05-10T14:48:04.982735",
+      "candidate_id": "6.pdf",
+      "action": "score_override",
+      "dimension": "experience",
+      "original_score": 5,
+      "original_justification": "No formal work experience, relying solely on academic projects.",
+      "new_score": 7,
+      "reason": "Demo",
+      "overridden_by": "HR_user"
+    }
+  ]
+}

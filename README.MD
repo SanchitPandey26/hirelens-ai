@@ -51,10 +51,10 @@ graph TD
 
 ## Tech Stack
 
-- **Orchestration**: [LangGraph](https://python.langchain.com/docs/langgraph) / LangChain Core — *Chosen for its native support for stateful 'Human-in-the-Loop' interactions and complex branching logic.*
-- **LLM**: [Google Gemini API](https://ai.google.dev/) (gemini-3.1-flash-lite-preview)
-- **Vector Search**: [FAISS](https://faiss.ai/) + [Rank-BM25](https://pypi.org/project/rank-bm25/)
-- **Frontend**: [Streamlit](https://streamlit.io/)
+- **Orchestration**: LangGraph — *Chosen for its native support for stateful 'Human-in-the-Loop' interactions and complex branching logic.*
+- **LLM**: Google Gemini API (gemini-3.1-flash-lite-preview)
+- **Vector Search**: FAISS + Rank-BM25
+- **Frontend**: Streamlit
 - **Parsing**: PyMuPDF, python-docx
 - **Reporting**: Jinja2 (HTML Generation)
 
